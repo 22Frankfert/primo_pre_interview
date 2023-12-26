@@ -1,13 +1,17 @@
-# primo_pre_interview
+# Primo Pre Interview Typescript Project
+This repository contains the typescript project of Primo's pre-interview form intern 22-23.
 
-npm init
-npm i typescript
-npm i --save-dev @types/jest jest ts-jest
-create repo structure
-create typescript file
-implement code
-tsc merge.ts
-implement test
-npx ts-jest config:init
-change script in package.json of "test" to "jest"
+## The Dependency Setup
+```
+npm install
+```
+
+## The Code Execution
+```
+node utils/merge.js
+```
+
+## The Unit Test
+```
 npm test
+```
